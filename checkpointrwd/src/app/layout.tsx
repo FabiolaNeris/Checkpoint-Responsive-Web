@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 
 export const metadata: Metadata = {
   title: "Thaidi Racing | Automecânica",
@@ -11,7 +13,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body >{children}</body>
+      <body>
+        <Header/>
+        {children}
+        <Footer/>
+        </body>
     </html>
   );
 }
