@@ -7,10 +7,10 @@ const Header =() =>{
         <header>
             <Image src="" alt=""/>
             <nav>
-                <ul>
-                    <li><Link href="" ></Link></li>
-                    <li><Link href="" ></Link></li>
-                    <li><Link href="" ></Link></li>
+                <ul className="nav-header">
+                    <li><Link href="" >Serviços</Link></li>
+                    <li><Link href="" >Revisão</Link></li>
+                    <li><Link href="" >Produtos</Link></li>
                 </ul>
             </nav>
         </header>

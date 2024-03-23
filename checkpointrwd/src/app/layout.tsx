@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Header from "./header/header";
 import Footer from "./footer/footer";
-
+import '../../public/css/style.css'
 export const metadata: Metadata = {
-  title: "Thaidi Racing | Automecânica",
+  title: "Serviços Automotivos",
 };
 
 export default function RootLayout({
