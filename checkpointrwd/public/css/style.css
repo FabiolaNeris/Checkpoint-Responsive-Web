@@ -152,12 +152,11 @@ main{
 }
 
 .relogio{
-    background-color: #e0e0e0;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     margin-left: 900px;
-    margin-top: 111px;
+    margin-top: 100px;
     height: 55px;
 }
 h1{
