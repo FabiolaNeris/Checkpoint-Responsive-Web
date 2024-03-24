@@ -5,12 +5,20 @@ const Header =() =>{
     return(
         <>
         <header>
-            <Image src="" alt=""/>
+            <div>
+                <Link href="/">
+                        <Image 
+                            src="/assets/pngwing.com 2.png"
+                            alt="Logo"
+                            height={82}
+                            width={85}
+                        />
+                </Link>    
+            </div>
             <nav>
                 <ul className="nav-header">
                     <li><Link href="/Servicos" >Serviços</Link></li>
                     <li><Link href="/Revisao" >Revisão</Link></li>
-                    <li><Link href="/Produtos" >Produtos</Link></li>
                 </ul>
             </nav>
         </header>

@@ -10,6 +10,32 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap:600px;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.introducao p {
+    font-size: 20px;
+}
+
+.introducao a{
+    margin-top: 20px;
+}
+.botao-agende{
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    background-color:rgba(255, 191, 0, 0.93);
+    color: white;
+    border-radius: 5px;
+    border: solid black;
+    padding: 5px;
 }
 
 .multiline{
@@ -55,9 +81,9 @@ form{
 .botao{
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 5px; 
     cursor: pointer;
-    width: 100%; /* Centraliza o botão */
+    width: 100%; 
     margin-top: 10px;
 }
 
@@ -70,12 +96,23 @@ main{
     background-color: lightgray;
 }
 
-.carro{
+.icones{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+}
 
+.icones-left{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.icones-right{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
 }
 
 .servico{
@@ -113,6 +150,16 @@ main{
     width: 40%; 
     padding: 20px
 }
+
+.relogio{
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: 111px;
+    height: 55px;
+}
 h1{
     padding-top: 30px;
     text-align: center;
@@ -145,5 +192,5 @@ footer {
    }
 
    footer address {
-    margin-bottom: 20px; /* Espaçamento entre o endereço e a lista de redes sociais */
+    margin-bottom: 20px;
    }

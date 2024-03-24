@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "./header/header";
 import Footer from "./footer/footer";
-import '../../public/css/style.css'
+import '../../public/css/style.css';
 export const metadata: Metadata = {
   title: "Serviços Automotivos",
 };

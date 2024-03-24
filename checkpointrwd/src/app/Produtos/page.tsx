@@ -5,6 +5,11 @@ const Produtos = () =>{
         <>
             <main>
                 <h1>Produtos</h1>
+                {/* Cards dos produtos */}
+                <div className="card-container">
+
+                    
+                </div>
             </main>
             
         </>
